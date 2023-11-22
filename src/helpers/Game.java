@@ -68,7 +68,7 @@ public class Game {
         String correctChoice = indexMapToChoice.get(questions[questionNo].correctChoice);
         String correctChoiceAnswer = questions[questionNo].choices[questions[questionNo].correctChoice];
         System.out.println("Incorrect!\nThe correct answer is: " + correctChoice + ": "+ correctChoiceAnswer);
-        System.out.println("Your answer:" + choiceMapToIndex.get(answer));
+        System.out.println("Your answer:" + answer);
     }
 
     public void start() {
